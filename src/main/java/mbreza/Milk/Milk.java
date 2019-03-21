@@ -1,4 +1,4 @@
-package mbreza;
+package mbreza.Milk;
 
 public interface Milk  {
     void fatPercentage();

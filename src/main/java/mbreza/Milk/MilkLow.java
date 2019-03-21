@@ -1,6 +1,8 @@
-package mbreza;
+package mbreza.Milk;
 
-public class MilkLow implements Milk{
+import mbreza.Milk.Milk;
+
+public class MilkLow implements Milk {
 
     @Override
     public void fatPercentage() {

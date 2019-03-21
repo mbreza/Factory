@@ -1,13 +1,17 @@
 package mbreza;
 
+import mbreza.Abstract.MilkOrCrispsFactory;
+import mbreza.Crisps.Crisps;
+import mbreza.Milk.Milk;
+
 public class App {
     public static void main(String[] args) {
-        MilkFactory milkFactory = new MilkFactory();
+        MilkOrCrispsFactory factory = new MilkOrCrispsFactory();
 
-        Milk milkOne = milkFactory.getMilk("low");
-        milkOne.fatPercentage();
+        Milk milk = (Milk) factory.getFactory("milk").create("low");
+        milk.fatPercentage();
 
-        Milk milkTwo = milkFactory.getMilk("high");
-        milkTwo.fatPercentage();
+        Crisps crisps = (Crisps) factory.getFactory("crisps").create("onion");
+        crisps.getFlavour();
     }
 }

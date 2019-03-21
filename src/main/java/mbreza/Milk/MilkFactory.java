@@ -1,8 +1,12 @@
-package mbreza;
+package mbreza.Milk;
 
-public class MilkFactory {
+import mbreza.Abstract.AbstractFactory;
 
-    public Milk getMilk (String milkType){
+public class MilkFactory implements AbstractFactory<Milk> {
+
+    @Override
+    public Milk create (String milkType){
+
          if(milkType.equals("low")){
             return new MilkLow();
         } else if(milkType.equals("high")){
