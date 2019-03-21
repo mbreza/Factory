@@ -3,8 +3,7 @@ package mbreza;
 import mbreza.Abstract.MilkOrCrispsFactory;
 import mbreza.Crisps.Crisps;
 import mbreza.Milk.Milk;
-import mbreza.chocolate.Chocolate;
-import mbreza.chocolate.ChocolateFactory;
+import mbreza.Chocolate.ChocolateFactory;
 
 public class App {
     public static void main(String[] args) {

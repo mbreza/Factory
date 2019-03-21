@@ -1,4 +1,4 @@
-package mbreza.chocolate;
+package mbreza.Chocolate;
 
 public class WhiteChocolate implements Chocolate {
     @Override
