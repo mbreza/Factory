@@ -1,5 +1,5 @@
 package mbreza.Simple;
 
 public interface Game {
-    void getType();
+    String getType();
 }

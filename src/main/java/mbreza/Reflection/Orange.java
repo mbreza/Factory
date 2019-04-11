@@ -4,7 +4,7 @@ public class Orange implements Fruit {
 
     public Orange(){}
     @Override
-    public void getType() {
-        System.out.println("Orange");
+    public String getType() {
+        return "Orange";
     }
 }

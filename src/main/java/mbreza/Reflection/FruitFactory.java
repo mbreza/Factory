@@ -21,6 +21,10 @@ public class FruitFactory {
     private HashMap<String, Class> fruitTypes = new HashMap<>();
 
 
+    public HashMap<String, Class> getFruitTypes() {
+        return fruitTypes;
+    }
+
     public void addFruit (String fruitName, Class fruitClass) {
         fruitTypes.put(fruitName, fruitClass);
     }
