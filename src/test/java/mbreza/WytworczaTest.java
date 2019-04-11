@@ -1,5 +1,6 @@
 package mbreza;
 
+import mbreza.Simple.GameType;
 import mbreza.Wytworcza.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -39,5 +40,15 @@ public class WytworczaTest {
     public void itTest() {
         Book it = horrorBookFactory.createBook(BookType.It);
         assertEquals(it.getType(), "It");
+    }
+
+    @Test
+    public void timeTest() {
+        long start = System.currentTimeMillis();
+        for(int i = 0 ; i<1000000 ; i++){
+            horrorBookFactory.createBook(BookType.It);
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("Wytworcza time: " + (end - start));
     }
 }

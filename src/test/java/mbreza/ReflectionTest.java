@@ -20,6 +20,7 @@ public class ReflectionTest {
     @Before
     public void setup(){
         fruitFactory = FruitFactory.createInstance();
+        fruitFactory.addFruit("Apple", Apple.class);
     }
 
     @Test
@@ -32,8 +33,18 @@ public class ReflectionTest {
     @Test
     public void createFruitTest() throws InvocationTargetException, NoSuchMethodException,
                                         InstantiationException, IllegalAccessException {
-        fruitFactory.addFruit("Apple", Apple.class);
         Fruit apple = fruitFactory.createFruit("Apple");
         assertEquals(apple.getType(), "Apple");
+    }
+
+    @Test
+    public void timeTest() throws InvocationTargetException, NoSuchMethodException,
+                                    InstantiationException, IllegalAccessException {
+        long start = System.currentTimeMillis();
+        for(int i = 0 ; i<1000000 ; i++){
+            fruitFactory.createFruit("Apple");
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("Reflection time: " + (end - start));
     }
 }

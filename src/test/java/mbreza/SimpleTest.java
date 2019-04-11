@@ -6,6 +6,8 @@ import mbreza.Simple.GameType;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.lang.reflect.InvocationTargetException;
+
 import static org.junit.Assert.assertEquals;
 
 public class SimpleTest {
@@ -29,4 +31,13 @@ public class SimpleTest {
         assertEquals(rpgGame.getType(), "RPG");
     }
 
+    @Test
+    public void timeTest() {
+        long start = System.currentTimeMillis();
+        for(int i = 0 ; i<1000000 ; i++){
+            gameFactory.createGame(GameType.RPG);
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("Simple time: " + (end - start));
+    }
 }
