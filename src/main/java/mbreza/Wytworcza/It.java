@@ -1,8 +1,8 @@
 package mbreza.Wytworcza;
 
-public class Horror implements Book {
+public class It implements Book {
     @Override
     public void getType() {
-        System.out.println("Horror");
+        System.out.println("It");
     }
 }

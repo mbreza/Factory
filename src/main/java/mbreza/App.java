@@ -4,12 +4,9 @@ import mbreza.Abstract.BatmanFactory;
 import mbreza.Abstract.IronManFactory;
 import mbreza.Abstract.PopCulture;
 import mbreza.Reflection.FruitFactory;
-import mbreza.Simple.Game;
 import mbreza.Simple.GameFactory;
 import mbreza.Simple.GameType;
-import mbreza.Wytworcza.Book;
-import mbreza.Wytworcza.BookFactory;
-import mbreza.Wytworcza.FantasyFactory;
+import mbreza.Wytworcza.*;
 
 public class App {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
@@ -17,19 +14,27 @@ public class App {
         FruitFactory appleFactory = new FruitFactory();
         appleFactory.create("Orange").getType();
 
-        GameFactory gameFactory = new GameFactory();
-        Game game = gameFactory.createGame(GameType.FPS);
-        game.getType();
+        //wszystko ok
+        GameFactory gameFactory = GameFactory.createInstance();
+        gameFactory.createGame(GameType.FPS).getType();
 
-        BookFactory bookFactory = new FantasyFactory();
-        Book fantasy = bookFactory.createBook();
+        //wszystko ok
+        BookFactory fantasyBookFactory = FantasyFactory.createInstance();
+        Book fantasy = fantasyBookFactory.createBook(BookType.GameOfThrones);
         fantasy.getType();
 
-        PopCulture ironMan = new PopCulture(new IronManFactory());
+        //wszystko ok
+        BookFactory horrorBookFactory = HorrorFactory.createInstance();
+        Book horror = horrorBookFactory.createBook(BookType.It);
+        horror.getType();
+
+        //wszystko ok
+        PopCulture ironMan = new PopCulture(IronManFactory.createInstance());
         ironMan.getComic().getType();
         ironMan.getMovie().getType();
 
-        PopCulture batman = new PopCulture(new BatmanFactory());
+        //wszystko ok
+        PopCulture batman = new PopCulture(BatmanFactory.createInstance());
         batman.getComic().getType();
         batman.getMovie().getType();
     }
