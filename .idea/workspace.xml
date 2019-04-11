@@ -3,24 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="800396bb-8f48-47c0-b605-4e67cd82a2d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Abstract/BatmanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Abstract/BatmanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Abstract/IronManFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Abstract/IronManFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Simple/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Simple/GameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/BookFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/BookFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/Fantasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/Witcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/FantasyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/FantasyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/Horror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/SalemsLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/HorrorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/HorrorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbreza/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Simple/GameFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbreza/Simple/GameFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Simple/GameFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbreza/Simple/GameFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/BookFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/BookFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/Fantasy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/FantasyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/FantasyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/Horror.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/HorrorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbreza/Wytworcza/HorrorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +20,52 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="182">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Fruit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,8 +77,8 @@
       <list>
         <option value="Singleton" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mbreza/Crisps/AbstractCrispsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mbreza/MilkOrCrispsFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Crisps/CrispsFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Abstract/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Milk/MilkFactory.java" />
@@ -84,7 +111,6 @@
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/BookHorrorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Fruit/AppleFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Reflection/AppleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Reflection/Apple.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Abstract/Comic.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Abstract/KaykoAndKokosh.java" />
@@ -109,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Wytworcza/HorrorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Abstract/IronManFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/Abstract/BatmanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/mbreza/App.java" />
       </list>
     </option>
@@ -176,7 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555005008567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555007748092" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -228,7 +257,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -238,7 +267,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32833335" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,13 +324,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Milk/MilkLow.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Crisps/CrispsPapirka.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Crisps/CrispsOnion.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Crisps/CrispsFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Abstract/MilkOrCrispsFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Crisps/Crisps.java" />
@@ -347,27 +369,6 @@
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -511,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Simple/GameFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Abstract/IronManFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -550,10 +544,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Simple/GameFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Orange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/Reflection/FruitFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mbreza/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="182">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
